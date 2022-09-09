@@ -1,0 +1,11 @@
+{
+  "commandDescription": "Get the latest package version info",
+  "nameFlagDescription": "name of the package",
+  "orderByFlagDescription": "Version or CreatedDate",
+  "releasedFlagDescription": "relased packaged only",
+  "errorNoOrgResults": "No results found for the package '%s'.",
+  "examples": [
+    "sfpu:version:latest --name my-core-pkg --targetdevhubusername devhub@org.com",
+    "sfpu:version:latest --name my-core-pkg --targetdevhubusername devhub@org.com --released"
+  ]
+}

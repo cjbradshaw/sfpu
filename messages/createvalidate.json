@@ -1,0 +1,16 @@
+{
+  "commandDescription": "Pacakge pre-create validations. Ensure your project has the latest versions and the commit is new",
+  "releasedFlagDescription": "checks the project isn't trying to create a new version of a previously promoted version",
+  "commitTagFlagDescription": "The commit tag you want to check if has been packaged before",
+  "latestFlagDescription": "Checks the package dependencies are using the latest versions",
+  "errorNoOrgResults": "No results found for the package '%s' and version '%s'",
+  "errorDepNotLatest": "The project dependency : package %s and version %s is not the latest. Devhub latest version is %s",
+  "errorUpdateDependency": "The project dependency (package : %s and version : %s) needs to be updated to the latest.Exiting!",
+  "errorTagAlreadyPackaged": "A Packaged with this commit hash (%s) has already been created. Exiting!",
+  "errorAlreadyPromoted": "A release package (%s) already exists for this release version",
+  "examples": [
+    "sfpu:create:validate --targetdevhubusername devhub@org.com",
+    "sfpu:create:validate --tag 66aeee86bc1b9d45933411ad5a9808f97ef90869 --targetdevhubusername devhub@org.com",
+    "sfpu:create:validate --tag 66aeee86bc1b9d45933411ad5a9808f97ef90869 --targetdevhubusername devhub@org.com --latest"
+  ]
+}

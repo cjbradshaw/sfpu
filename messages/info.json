@@ -1,0 +1,13 @@
+{
+  "commandDescription": "Get the latest package version info",
+  "nameFlagDescription": "name of the package",
+  "versionNumberFlagDescription": "pacakge version number e.g. 1.1.1.1",
+  "versionIdByFlagDescription": "package version id 04t....",
+  "allBetasFlagDescription": "when supplied all beta versions of the package version will be returned - e.g. 1.1.0.1,1.1.0.2,1.1.0.2 ",
+  "errorNoOrgResults": "No results found for the package '%s' and version '%s'",
+  "examples": [
+    "sfpu:info --name my-core-pkg --targetdevhubusername devhub@org.com --versionnumber 1.28.0.1",
+    "sfpu:info --name my-core-pkg --targetdevhubusername devhub@org.com versionId 04txxxxxxxxxxx",
+    "sfpu:info --name my-core-pkg --targetdevhubusername devhub@org.com --versionnumber 1.28.0.1 -b"
+  ]
+}
