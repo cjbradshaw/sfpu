@@ -51,9 +51,9 @@
     "commands": "./lib/commands",
     "bin": "sfdx",
     "topics": {
-      "hello": {
-        "description": "Commands to say hello."
-      }
+      "sfdu": {
+        "description": "Salesforce package utils - varios things"
+      }  
     }
   },
   "repository": "cjbradshaw/sfpu",
